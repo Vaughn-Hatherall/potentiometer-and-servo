@@ -1,0 +1,23 @@
+{
+    "name": "Potentiometer and servo",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "pxt-robit": "github:tinkertanker/pxt-robit#v2.0.10",
+        "servo": "*",
+        "robotbit": "github:kittenbot/pxt-robotbit#v0.3.6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
