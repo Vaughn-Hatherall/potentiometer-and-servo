@@ -1,3 +1,6 @@
+// Created by Vaughn Hatherall on October 7
+// To relate potentiometer to server motor
+// 
 basic.forever(function () {
     basic.showNumber(pins.analogReadPin(AnalogPin.P2))
     pins.servoWritePin(AnalogPin.P2, pins.map(
